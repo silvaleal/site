@@ -3,6 +3,8 @@
     margin: auto;
     margin-top: 50px;
 
+    text-align: center;
+
 }
 .socialtree img {
     width: 200px;
@@ -16,20 +18,24 @@
 }
 .socialtree .menu-link {
     margin-top: 10px;
-    display: flex;
-    align-items: center;
     width: 100%;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 5px 5px black;
     position: relative;
-    height: 50px;
+    /* height: 50px; */
     border: 5px solid white;
+}
+.socialtree .menu-link a {
+    display: flex;
 }
 .socialtree .menu-link:hover {
     transform: scale(0.99);
-    background-color: rgb(240, 227, 208);
+    background-color: rgb(228, 194, 144);
     transition: 0.2s ease-in-out;
+}
+.socialtree .menu-link:active {
+    background-color: rgb(175, 150, 112);
 }
 .socialtree p {
     font-size: 15px;
@@ -38,19 +44,15 @@
 }
 .socialtree .menu-link img {
     width: 50px;
-    position: absolute;
     border-radius: 20px;
+    position: absolute;
 }
 .social {
     margin-top: 50px;
     font-size: 25px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-a {
-    color: white;
+.social a {
+    color: white
 }
 i:hover {
     transform: scale(1.05);
