@@ -56,6 +56,6 @@
 }
 i:hover {
     transform: scale(1.05);
-    color: rgb(240, 227, 208);
+    color: rgb(175, 150, 112);
     transition: 0.2s ease-in-out;
 }
