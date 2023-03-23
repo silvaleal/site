@@ -1,0 +1,59 @@
+.socialtree {
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.socialtree img {
+    width: 200px;
+}
+.socialtree .menu {
+    display: grid;
+    justify-content: center;
+}
+.socialtree .menu-texto {
+    text-align: center;
+}
+.socialtree .menu-link {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px black;
+    position: relative;
+    height: 50px;
+    border: 5px solid white;
+}
+.socialtree .menu-link:hover {
+    transform: scale(0.99);
+    background-color: rgb(240, 227, 208);
+    transition: 0.2s ease-in-out;
+}
+.socialtree p {
+    font-size: 15px;
+    margin: auto;
+    color: black;
+}
+.socialtree .menu-link img {
+    width: 50px;
+    position: absolute;
+    border-radius: 20px;
+}
+.social {
+    margin-top: 50px;
+    font-size: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: white;
+}
+i:hover {
+    transform: scale(1.05);
+    color: rgb(240, 227, 208);
+    transition: 0.2s ease-in-out;
+}
