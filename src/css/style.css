@@ -21,7 +21,7 @@
     width: 100%;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0 5px 5px black;
+    box-shadow: 0 2px 2px black;
     position: relative;
     /* height: 50px; */
     border: 5px solid white;
@@ -35,7 +35,7 @@
     transition: 0.2s ease-in-out;
 }
 .socialtree .menu-link:active {
-    background-color: rgb(175, 150, 112);
+    background-color: rgb(92, 68, 31);
 }
 .socialtree p {
     font-size: 15px;
